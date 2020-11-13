@@ -71,26 +71,34 @@ body {
 }
 
 // MOBILE
-@media (max-width: 1024px) {
+@media (max-width: 980px) {
 
     // PAGES
     .gray-bg {
         display: none;
     }
 
+    .wrapper {
+        width: 90vw;
+    }
+
     // NAV
     .nav {
+        
+        &-items {
+            margin-top: -300px;
+            transition: 0.5s all ease;
+            z-index: -1;
+        }
         &-mobile {
             position: fixed;
-            top: 5rem;
+            top: 0;
             left: 50%;
             transform: translateX(-50%);
-        }
-        &-items {
             background-color: white;
             flex-direction: column;
             width: 100vw;
-            padding: 1.5rem 0;
+            padding: 100px 0 1.5rem;
             * {
                 padding: 1rem 0;
                 margin: 0;
@@ -98,6 +106,12 @@ body {
             }
         }
     }
+
+    .open-nav {
+        
+        margin-top: 0;
+    }
+
     .fa-bars {
         color: $yellow;
         display: block;
