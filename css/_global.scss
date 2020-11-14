@@ -84,8 +84,10 @@ body {
     }
 }
 
-.fa-bars {
-    display: none;
+.nav-active {
+    &::after {
+        width: 100%;
+    }
 }
 
 //FOOTER
@@ -168,7 +170,7 @@ footer {
     .nav {
         &-items {
             margin-top: -300px;
-            transition: 0.5s all ease-in-out;
+            transition: 0.7s all ease-in-out;
             z-index: 0;
             a {
                 margin-left: 0;
@@ -194,13 +196,46 @@ footer {
     .open-nav {
         margin-top: 0;
     }
-    
-    .fa-bars {
-        color: $yellow;
-        display: block;
-        font-size: 1.4rem;
+
+    .burger {
         position: relative;
+        background-color: $yellow;
+        height: 3px;
+        width: 23px;
+        cursor: pointer;
         z-index: 1;
+        transition: all 0.3s ease-in-out;
+        &::before {
+            content: "";
+            background-color: $yellow;
+            height: 3px;
+            width: 23px;
+            position: absolute;
+            top: -7px;
+            left: 0;
+            transition: all 0.3s ease-in-out;
+        }
+        &::after {
+            content: "";
+            background-color: $yellow;
+            height: 3px;
+            width: 23px;
+            position: absolute;
+            top: 7px;
+            left: 0;
+            transition: all 0.3s ease-in-out;
+        }
+    }   
+    // burger animation
+    .burger.open-burger {
+        background: transparent;
+        transform: translateX(7px)
+    }
+    .burger.open-burger::before {
+        transform: rotate(225deg) translate(0, -10px);
+    }
+    .burger.open-burger::after {
+        transform: rotate(-225deg) translate(0, 10px);
     }
 
     // FOOTER
