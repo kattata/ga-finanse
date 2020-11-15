@@ -91,8 +91,14 @@ body {
   width: 100%;
 }
 
-.nav-active::after {
+.nav-active::before {
+  content: "";
   width: 100%;
+  height: 3px;
+  bottom: -10px;
+  left: 0;
+  background-color: #DBB442;
+  position: absolute;
 }
 
 footer {
@@ -197,14 +203,26 @@ footer {
             flex-direction: column;
     width: 100vw;
     padding: 100px 0 1.5rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .nav-mobile * {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     padding: 1rem 0;
     margin: 0;
     text-align: center;
   }
   .open-nav {
     margin-top: 0;
+  }
+  .nav-active::before {
+    bottom: 5px;
   }
   .burger {
     position: relative;
