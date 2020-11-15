@@ -1,12 +1,4 @@
-// VARIABLES
-$navy: #233376;
-$yellow: #DBB442;
-$gray: #EEEEEE;
-$bg: #F7F7F7;
-$main-font: 'Roboto', sans-serif;
-$regular: 400;
-$medium: 500;
-$bold: 700;
+@import 'variables';
 
 
 // RESET
@@ -26,7 +18,7 @@ body {
     font-family: $main-font;
     font-size: 16px;
     background-color: #F7F7F7;
-    height: 150vh;
+    height: 350vh;
     position: relative;
 }
 
@@ -42,6 +34,7 @@ body {
 
 .wrapper {
     width: 70vw;
+    max-width: 1000px;
     margin: auto;
 }
 

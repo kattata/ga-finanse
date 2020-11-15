@@ -1,0 +1,17 @@
+// VARIABLES
+$navy: #233376;
+$yellow: #DBB442;
+$gray: #EEEEEE;
+$bg: #F7F7F7;
+$main-font: 'Roboto', sans-serif;
+$regular: 400;
+$medium: 500;
+$bold: 700;
+
+// MIXINS
+@mixin box {
+    box-shadow: 5px 5px 17px 0px rgba(0,0,0,0.1);
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 4px;
+}
