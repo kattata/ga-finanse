@@ -12,6 +12,17 @@ $bold: 700;
 @mixin box {
     box-shadow: 5px 5px 17px 0px rgba(0,0,0,0.1);
     background-color: white;
-    padding: 2.5rem;
+    padding: 3rem;
     border-radius: 4px;
+}
+
+@mixin img {
+    z-index: -1;
+    object-fit: cover;
+}
+
+@mixin img-right {
+    display: block;
+    margin-right: 0;
+    margin-left: auto;
 }
