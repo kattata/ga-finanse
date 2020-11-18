@@ -17,18 +17,11 @@ const config = {
     gap: 20,
     focusAt: 'center',
     breakpoints: {
-        1400: {
-            perView: 4,
-            focusAt: 0
-        },
-        1150: {
-            perView: 3
-        },
         980: {
             perView: 4,
             focusAt: 0
         },
-        790: {
+        830: {
             perView: 3
         },
         500: {
