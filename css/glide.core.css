@@ -43,6 +43,11 @@
     height: 120px;
     top: 50%;
 }
+
+    .glide__arrows:active {
+      border: transparent;
+      outline: transparent;
+    }
   
     .glide__arrows button {
       background: transparent;
@@ -52,7 +57,7 @@
     }
 
     .glide__arrows button img{
-      height: 10px;
+      height: 15px;
     }
 
     .glide__arrow--left {

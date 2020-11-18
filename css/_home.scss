@@ -184,3 +184,11 @@
         }
     }
 }
+
+@media (max-width: 600px) {
+    .trusted {
+        &-company {
+            width: 100%;
+        }
+    }
+}

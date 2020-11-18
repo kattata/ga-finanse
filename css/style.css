@@ -560,3 +560,9 @@ footer {
     width: 90%;
   }
 }
+
+@media (max-width: 600px) {
+  .trusted-company {
+    width: 100%;
+  }
+}
