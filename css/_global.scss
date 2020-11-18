@@ -36,8 +36,9 @@ body {
 }
 
 .wrapper {
-    width: 65vw;
+    // width: 65vw;
     max-width: 1000px;
+    padding: 0 1rem;
     margin: auto;
     position: relative;
 }
@@ -103,7 +104,8 @@ footer {
 }
 
 .footer {
-    width: 70vw;
+    width: 65vw;
+    max-width: 1000px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -167,6 +169,7 @@ footer {
 
     .wrapper {
         width: 90vw;
+        padding: 0;
     }
 
     // NAV
