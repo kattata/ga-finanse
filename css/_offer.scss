@@ -43,7 +43,7 @@
         img {
             @include img;
             height: 600px;
-            width: 75%;
+            width: 80%;
             position: absolute;
             left: 0;
             object-position: left 30%;
@@ -67,7 +67,7 @@
             @include img;
             position: absolute;
             right: 0;
-            width: 75%;
+            width: 80%;
             height: 600px;
             object-position: 55% 50%;
             margin-bottom: 2rem;
