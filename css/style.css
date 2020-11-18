@@ -541,30 +541,41 @@ footer {
 @media (max-width: 980px) {
   .hero img {
     width: 100%;
+    height: 80vh;
   }
   .hero-text {
-    top: 50%;
+    top: 65%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -35%);
+            transform: translate(-50%, -35%);
     text-align: center;
     width: 90%;
   }
   .hero-text a {
     margin: auto;
   }
+  .offer {
+    margin-bottom: 1rem;
+  }
   .offer-card {
     margin-bottom: 10px;
+  }
+  .about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .about img {
     width: 100%;
   }
   .about-text {
-    top: 90%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -10%);
-            transform: translate(-50%, -10%);
-    width: 90%;
+    position: static;
+    width: 100%;
+    margin-top: 1rem;
   }
 }
 
@@ -738,14 +749,24 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding-top: 0;
   }
   .funds-one img, .funds-two img {
     position: relative;
     width: 100%;
     height: 40vh;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
+    margin-top: 0;
   }
   .funds-one-text, .funds-two-text {
     max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  .funds-two {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
 }
