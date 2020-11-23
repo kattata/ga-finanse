@@ -245,13 +245,12 @@ footer {
     // burger animation
     .burger.open-burger {
         background: transparent;
-        transform: translateX(0)
     }
     .burger.open-burger::before {
-        transform: rotate(135deg) translate(0, -10px);
+        transform: rotate(135deg) translate(5px, -5px);
     }
     .burger.open-burger::after {
-        transform: rotate(-135deg) translate(0, 10px);
+        transform: rotate(-135deg) translate(5px, 5px);
     }
 
     // FOOTER
