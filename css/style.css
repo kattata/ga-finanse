@@ -267,16 +267,16 @@ footer {
   }
   .burger.open-burger {
     background: transparent;
-    -webkit-transform: translateX(7px);
-            transform: translateX(7px);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
   .burger.open-burger::before {
-    -webkit-transform: rotate(225deg) translate(0, -10px);
-            transform: rotate(225deg) translate(0, -10px);
+    -webkit-transform: rotate(135deg) translate(0, -10px);
+            transform: rotate(135deg) translate(0, -10px);
   }
   .burger.open-burger::after {
-    -webkit-transform: rotate(-225deg) translate(0, 10px);
-            transform: rotate(-225deg) translate(0, 10px);
+    -webkit-transform: rotate(-135deg) translate(0, 10px);
+            transform: rotate(-135deg) translate(0, 10px);
   }
   .footer {
     width: 90vw;
