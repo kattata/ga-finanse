@@ -58,7 +58,15 @@
 
     .glide__arrows button img{
       height: 15px;
+      opacity: 1;
+      transition: all .5s ease-in-out;
     }
+    
+    .glide__arrows button img:hover{
+      opacity: 0.5;
+    }
+
+
 
     .glide__arrow--left {
       position: absolute;

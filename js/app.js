@@ -9,6 +9,23 @@ function toggleNav() {
 
 burger.addEventListener('click', toggleNav);
 
+// CARD EXPAND
+// let cards = document.querySelectorAll('.offer-card');
+// let cardInfo = document.querySelectorAll('.offer-card p');
+
+// function expandCard() {
+//     // cardInfo.style = 'block';
+//     cardInfo.forEach(info => info.style.display = 'block')
+// }
+
+// function shrinkCard() {
+//     // cardInfo.style = 'block';
+//     cardInfo.forEach(info => info.style.display = 'none')
+// }
+
+// cards.forEach(card => card.addEventListener('mouseenter', expandCard));
+// cards.forEach(card => card.addEventListener('mouseleave', shrinkCard));
+
 // GLIDE CAROUSEL
 const config = {
     type: 'carousel',

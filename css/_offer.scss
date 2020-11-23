@@ -32,6 +32,10 @@
     p {
         margin-bottom: 1rem;
     }
+
+    .last {
+        margin-bottom: 0;
+    }
 }
 
 
@@ -98,7 +102,7 @@
         padding: 2.5rem;
         padding-bottom: 2rem;
         flex-grow: 1;
-        flex-basis: 300px;
+        flex-basis: 350px;
     }
     ul li {
         margin-left: 1.5rem;

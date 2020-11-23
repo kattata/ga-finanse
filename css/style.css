@@ -311,7 +311,7 @@ footer {
   margin-right: 0;
   margin-left: auto;
   width: 80%;
-  height: 70vh;
+  height: 67vh;
   max-height: 800px;
   margin-top: 10px;
   -o-object-position: 100% 20%;
@@ -360,6 +360,14 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.hero-text a:hover {
+  background-color: white;
+  border: 2px solid #233376;
+  color: #233376;
 }
 
 .offer {
@@ -392,11 +400,13 @@ footer {
 
 .offer h3 {
   font-size: 1rem;
-  margin-top: 3px;
+  width: 80%;
+  margin: auto;
+  margin-top: 5px;
 }
 
 .offer p {
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .offer-card {
@@ -413,6 +423,7 @@ footer {
       flex-basis: 350px;
   text-align: center;
   line-height: 1.2;
+  padding: 2.5rem 3rem;
 }
 
 @media (max-width: 980px) {
@@ -428,6 +439,12 @@ footer {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.see-offer:hover {
+  opacity: 0.5;
 }
 
 .see-offer img {
@@ -441,7 +458,6 @@ footer {
 }
 
 .about img {
-  width: 80%;
   margin-top: 2rem;
   z-index: -1;
   -o-object-fit: cover;
@@ -449,6 +465,7 @@ footer {
   display: block;
   margin-right: 0;
   margin-left: auto;
+  width: 80%;
 }
 
 .about h2 {
@@ -477,6 +494,10 @@ footer {
   .about-text {
     padding: 2rem;
   }
+}
+
+.about .last {
+  margin-bottom: 0;
 }
 
 .trusted {
@@ -539,6 +560,9 @@ footer {
 }
 
 @media (max-width: 980px) {
+  .hero {
+    margin-bottom: 1rem;
+  }
   .hero img {
     width: 100%;
     height: 80vh;
@@ -555,6 +579,7 @@ footer {
     margin: auto;
   }
   .offer {
+    margin-top: 0;
     margin-bottom: 1rem;
   }
   .offer-card {
@@ -568,9 +593,11 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-bottom: 1rem;
   }
   .about img {
-    width: 100%;
+    width: 100% !important;
+    margin-top: 0;
   }
   .about-text {
     position: static;
@@ -580,6 +607,9 @@ footer {
 }
 
 @media (max-width: 600px) {
+  .trusted {
+    margin-top: 0;
+  }
   .trusted-company {
     width: 100%;
   }
@@ -615,6 +645,10 @@ footer {
 
 .funds p, .other-services p {
   margin-bottom: 1rem;
+}
+
+.funds .last, .other-services .last {
+  margin-bottom: 0;
 }
 
 .funds-one {
@@ -726,8 +760,8 @@ footer {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  -ms-flex-preferred-size: 300px;
-      flex-basis: 300px;
+  -ms-flex-preferred-size: 350px;
+      flex-basis: 350px;
 }
 
 @media (max-width: 980px) {
@@ -775,6 +809,14 @@ footer {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
+}
+
+.about p {
+  margin-bottom: 1rem;
+}
+
+.about .last {
+  margin-bottom: 0;
 }
 
 .about img {
@@ -891,6 +933,10 @@ footer {
 
 .contact-text p {
   margin-bottom: 1rem;
+}
+
+.contact-text .last {
+  margin-bottom: 0;
 }
 
 @media (max-width: 800px) {

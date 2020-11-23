@@ -4,6 +4,12 @@
         text-transform: uppercase;
         margin-bottom: 1.5rem;
     }
+    p {
+        margin-bottom: 1rem;
+    }
+    .last {
+        margin-bottom: 0;
+    }
     img {
         width: 80%;
         @include img;
@@ -30,6 +36,7 @@
     }
     &-two {
         position: relative;
+        
 
     }
 }
