@@ -619,6 +619,7 @@ footer {
   text-transform: uppercase;
   margin: 2rem 0 1.5rem;
   text-align: center;
+  font-size: 1.4rem;
 }
 
 .funds h2, .other-services h2 {
