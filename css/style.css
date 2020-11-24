@@ -478,6 +478,7 @@ footer {
   margin-right: 0;
   margin-left: auto;
   width: 80%;
+  min-height: 560px;
 }
 
 .about h2 {
@@ -620,6 +621,7 @@ footer {
   .about img {
     width: 100% !important;
     margin-top: 0;
+    min-height: 190px;
   }
   .about-text {
     position: static;
@@ -675,6 +677,10 @@ footer {
 
 .funds .last, .other-services .last {
   margin-bottom: 0;
+}
+
+.funds img {
+  min-height: 600px;
 }
 
 .funds-one {
@@ -814,9 +820,9 @@ footer {
   .funds-one img, .funds-two img {
     position: relative;
     width: 100%;
-    height: 40vh;
     margin-bottom: 1rem;
     margin-top: 0;
+    height: 190px;
   }
   .funds-one-text, .funds-two-text {
     max-width: 100%;
@@ -847,6 +853,7 @@ footer {
 
 .about img {
   width: 80%;
+  min-height: 510px;
   z-index: -1;
   -o-object-fit: cover;
      object-fit: cover;
@@ -904,6 +911,7 @@ footer {
   }
   .about-one img, .about-two img {
     width: 100%;
+    min-height: 190px;
     margin-bottom: 1rem;
     margin-top: 1rem;
   }
@@ -921,6 +929,7 @@ footer {
 
 .contact img {
   width: 85%;
+  min-height: 540px;
   display: block;
   margin-left: auto;
   margin-right: 0;
@@ -983,5 +992,6 @@ footer {
   }
   .contact img {
     width: 100%;
+    min-height: 190px;
   }
 }

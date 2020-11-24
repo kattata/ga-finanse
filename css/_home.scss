@@ -6,7 +6,6 @@
     position: relative;
     img {
         @include img;
-        // @include img-right;
         width: 100%;
         height: 500px;
         max-height: 800px;
@@ -121,6 +120,7 @@
         @include img;
         @include img-right;
         width: 80%;
+        min-height: 560px;
     }
     h2 {
         text-transform: uppercase;
@@ -221,6 +221,7 @@
         img {
             width: 100% !important;
             margin-top: 0;
+            min-height: 190px;
         }
         &-text {
             position: static;
