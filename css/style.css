@@ -616,7 +616,6 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-bottom: 1rem;
   }
   .about img {
     width: 100% !important;
@@ -626,6 +625,9 @@ footer {
     position: static;
     width: 100%;
     margin-top: 1rem;
+  }
+  .wrapper .trusted {
+    margin-top: 2rem;
   }
 }
 
