@@ -221,13 +221,16 @@
         img {
             width: 100% !important;
             margin-top: 0;
-            min-height: 190px;
         }
         &-text {
             position: static;
             width: 100%;
             margin-top: 1rem;
         }
+    }
+
+    .wrapper .about img {
+        min-height: 190px; //had to do it this way because otherwise it didn't work in media query
     }
 
     // TRUSTED

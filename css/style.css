@@ -621,12 +621,14 @@ footer {
   .about img {
     width: 100% !important;
     margin-top: 0;
-    min-height: 190px;
   }
   .about-text {
     position: static;
     width: 100%;
     margin-top: 1rem;
+  }
+  .wrapper .about img {
+    min-height: 190px;
   }
   .wrapper .trusted {
     margin-top: 2rem;
@@ -692,7 +694,6 @@ footer {
   z-index: -1;
   -o-object-fit: cover;
      object-fit: cover;
-  height: 600px;
   width: 80%;
   position: absolute;
   left: 0;
@@ -735,7 +736,6 @@ footer {
   position: absolute;
   right: 0;
   width: 80%;
-  height: 600px;
   -o-object-position: 55% 50%;
      object-position: 55% 50%;
   margin-bottom: 2rem;
@@ -822,7 +822,7 @@ footer {
     width: 100%;
     margin-bottom: 1rem;
     margin-top: 0;
-    height: 190px;
+    min-height: 90px;
   }
   .funds-one-text, .funds-two-text {
     max-width: 100%;
