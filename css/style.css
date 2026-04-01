@@ -199,7 +199,7 @@ footer {
   }
   .nav-mobile {
     position: absolute;
-    top: 0;
+    top: -30px;
     left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
@@ -395,6 +395,13 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
+}
+
+@media (max-width: 600px) {
+  .offer-lower-row {
+    grid-template-columns: 1fr;
+  }
+
 }
 
 .offer img {
